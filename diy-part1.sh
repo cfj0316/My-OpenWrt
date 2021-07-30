@@ -16,5 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git luci-app-zerotier https://github.com/rufengsuixing/luci-app-zerotier' >>feeds.conf.default
-git clone https://github.com/liuran001/openwrt-packages 
+#echo 'src-git luci-app-zerotier https://github.com/rufengsuixing/luci-app-zerotier' >>feeds.conf.default
+git clone https://github.com/liuran001/openwrt-packages ./packages

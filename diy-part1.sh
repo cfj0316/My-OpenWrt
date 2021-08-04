@@ -20,4 +20,5 @@
 #git clone https://github.com/liuran001/openwrt-packages ./packages
 #git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean ./package/lean
-svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier ./package/luci-app-zerotier
+#svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier ./package/luci-app-zerotier
+git clone https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier

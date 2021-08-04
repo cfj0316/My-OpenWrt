@@ -19,7 +19,7 @@
 #echo 'src-git zerotier https://github.com/rufengsuixing/luci-app-zerotier' >>feeds.conf.default
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 git clone https://github.com/jerrykuku/luci-theme-argon ./package/mine/luci-theme-argon
-svn export --force https://github.com/coolsnowwolf/lede/tree/master/package/lean ./package/lean
+svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean ./package/lean
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier ./package/mine/luci-app-zerotier
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol ./package/mine/luci-app-accesscontrol
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-adbyby-plus ./package/mine/luci-app-adbyby-plus 

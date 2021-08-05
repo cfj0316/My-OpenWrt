@@ -24,5 +24,5 @@
 #git clone https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 #echo 'src-git lede-lean https://github.com/cfj0316/lede/trunk/package/lean' >>feeds.conf.default
 echo 'src-git custom https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
-git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
-git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+#git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+#git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon

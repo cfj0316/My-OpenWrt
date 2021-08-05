@@ -16,13 +16,13 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git zerotier https://github.com/rufengsuixing/luci-app-zerotier' >>feeds.conf.default
-#echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 #git clone https://github.com/liuran001/openwrt-packages ./packages
 #git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean ./package/lean
 #svn export --force https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-zerotier ./package/luci-app-zerotier
 #git clone https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 #echo 'src-git lede-lean https://github.com/cfj0316/lede/trunk/package/lean' >>feeds.conf.default
-echo 'src-git custom https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+#echo 'src-git custom https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 #git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 #git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon

@@ -70,10 +70,14 @@ jobs:
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
-
+      #cd feeds/custom && git pull
+      
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
-
+      #./scripts/feeds update luci packages custom
+      #./scripts/feeds install -a -p custom
+      #./scripts/feeds install -a
+      
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files

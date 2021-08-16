@@ -33,3 +33,5 @@ rm -rf package/feeds/custom/v2ray-core
 rm -rf package/feeds/custom/v2ray-plugin
 rm -rf package/feeds/custom/xray-core
 rm -rf package/feeds/custom/xray-plugin
+rm -rf package/feeds/luci/luci-app-frpc
+rm -rf package/feeds/luci/luci-app-frps
